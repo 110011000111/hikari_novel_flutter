@@ -21,7 +21,7 @@ jobs:
       - name: 设置 Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.4'
+          channel: 'stable'   # 自动使用最新的稳定版
 
       - name: 启用 Flutter 桌面支持 (用于 Windows/macOS 编译)
         run: |
